@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 html,
 body,
@@ -7,14 +7,53 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: aliceblue;
+  background-color:#deeac3;
+  text-align: center
 }
 
-.blog1 {
-  padding: 5px 5px;
+h1 {
+font-family: 'Poppins', sans-serif;
+font-size: 65px;
+margin: 5px;
+color: #03242f;
+
 }
-.AMREpicture {
-  height: 250px;
-  padding: 25px;
-  background-color: brown;
+
+#subheading{
+  font-family: 'Spectral', serif;
+  font-size: 28px;
+  margin-bottom:40px;
+  color:#668e6a;
+}
+
+.post-whole {
+  align-items: center;
+  background-color: white;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding-bottom:10px
+} 
+
+.post-title{
+  font-family: 'Spectral', serif;
+  font-size:35px;
+  background-color:#77abbe;
+  color: #033c52;
+  padding: 20px;
+
+}
+.post-body {
+  background-color: white;
+  padding: 10px;
+  font-family:'DM Sans', sans-serif;
+}
+.post-link {
+  background-color: white;
+  font-size:20px;
+
+}
+.bird-picture {
+  width: 980px;
 }
