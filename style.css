@@ -13,7 +13,7 @@ body,
 
 h1 {
 font-family: 'Poppins', sans-serif;
-font-size: 60px;
+font-size: 65px;
 margin: 10px;
 color: #03242f;
 
@@ -22,8 +22,8 @@ color: #03242f;
 #subheading{
   font-family: 'Spectral', serif;
   font-size: 28px;
-  margin-left: 10px;
-  margin-right:10px;
+  margin-left: 15px;
+  margin-right:15px;
   margin-bottom:40px;
   color:#668e6a;
 }
